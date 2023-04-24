@@ -84,7 +84,7 @@ a{
 
   .background {
     background:rgb(0,0,0,0.5)
-    url(img/website\ background-Month.jpg );
+    url(website\ background-Month.jpg );
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
