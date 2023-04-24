@@ -129,21 +129,23 @@ a{
     display: block;
     margin: 10% 10%;
 }
-
+.page{
+  margin-top: 180px;
+}
 /* .secoundhalf img:hover{   image-rendering: optimizeQuality;
   }
  */
 .text-big {
-    margin-top: 225px ;
-    text-align: left;
-    font-size: 25px;
+    margin-top: 2px ;
+    text-align: center;
+    font-size: 35px;
 }
 
 .text-small {
-    padding: 1px;
+    padding: 45px;
     text-align: left;
-    font-size: 13px;
-    margin-top: 15px;
+    font-size: 18px;
+    margin-top: 20px;
 }
 .btn{
     padding: 11px 50px;
@@ -195,11 +197,11 @@ a{
     margin: auto;
  }
  .section-left{
-    height: 500px;
+    height: 509px;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 50%;
+    max-width: 100%;
     margin: auto;
     flex-direction: column-reverse;
     flex-direction: row-reverse;
