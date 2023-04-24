@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 5;
+}
+a{
+  text-decoration: none;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    padding: 0 50px;
+    
+}
+
+.logo {
+   
+
+     width: 10%;
+    display: flex;
+    justify-content: center; 
+    align-items: left; 
+
+
+}
+
+.logo img {
+    width: 20%;
+    border-style: none;
+    /* border: solid rgb(255, 255, 255); */
+    /* border-radius: 100px; */
+
+}
+
+
+.navlist {
+ width: 70%;
+ display: flex;
+ align-items: center;
+
+}
+
+.navlist li {
+    list-style: none;
+    padding: 20px 24px;
+    color: rgb(0, 0, 0);
+
+}
+
+.navlist li a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navlist li a:hover {
+
+    text-decoration: underline;
+    color: rgb(8, 255, 243);
+    text-shadow: #ffceaa00;
+    text-justify: distribute;
+}
+
+.rightnav {
+
+    width: 50%;
+    text-align: right;
+  padding-top: 10px;
+
+}
+
+#search {
+    padding: 2px;
+    font-size: 14px;
+    border: #ffffff;
+    border-radius: 10px;
+
+}
+
+  .background {
+    background:rgb(0,0,0,0.5)
+    url(img/website\ background-Month.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+   
+} 
+
+.firstsection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 76%;
+    margin: auto;
+    height: 40%;
+}
+
+.firsthalf {
+    
+    width: 108%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secoundhalf {
+    width: 226%;
+    height: 301px;
+}
+
+
+.secoundhalf img {
+    width: 100%;
+
+    border: 0.5px solid rgb(255, 254, 254);
+    border-radius: 9px;
+
+    display: block;
+    margin: 10% 10%;
+}
+
+/* .secoundhalf img:hover{   image-rendering: optimizeQuality;
+  }
+ */
+.text-big {
+    margin-top: 225px ;
+    text-align: left;
+    font-size: 25px;
+}
+
+.text-small {
+    padding: 1px;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.btn{
+    padding: 11px 50px;
+    margin: 18px 0;
+    border: 2px solid rgb(251, 240, 240);
+    border-radius: 21px;
+    font-size: 11px;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: rgb(3, 20, 172);
+}
+
+.pad{
+    padding: 30px 30px;
+    font-size: 36px;
+}
+.btn-sm{
+    padding: 3px 10PX;
+   vertical-align: middle;
+ }
+ .btn-sm:hover{
+   color: blue;
+ }
+ .ybtn-dark{
+    padding: 6px 34px;
+    color: black;
+    border: 1px solid black;
+    
+
+}
+.lookfor-blood{
+  display: none;
+  position: absolute;
+
+  background: transparent;
+}
+
+ 
+ .section{
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 50%;
+    margin: auto;
+ }
+ .section-left{
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 50%;
+    margin: auto;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    background-color: coral;
+ }
+ .thumbnail{
+    width: 69px;
+    height: 200px;
+ }
+ .thumbnail{
+    width: 270px;
+    border-radius: 9px;
+    display: flex;
+    margin: auto;
+    border: 1px #0e0d0d;
+ }
+ .imagefluid{
+    width: 300px;
+    height: 302px;
+   
+}
+ 
+ .paras{
+    padding: 18px 20px;
+ }
+ .thumbnail utn{
+  
+    height: 200px;
+    width: 270px;
+    border-radius: 9px;
+    display: flex;
+    margin: auto;
+    border: 1px #0e0d0d;
+
+ }
+ .contact{
+    margin: 4px;
+    background-color: rgb(15, 15, 15);
+    height: 250px;
+   
+ }
+ .contact h2{
+  color: #ffffff;
+    font-size: 2rem;
+ }
+ .contact h3 {
+  color: #ffffff;
+  font-size: 1.3rem;
+    padding: 0% 23%; 
+    margin-top: 3%;
+    text-align: center;
+ }
+ .text-centre{
+    text-align: center;
+    padding-top:20px ;
+    font-size: 25px;
+ }
+ .form{
+    
+    max-width: 380px;
+    margin: 24px auto;
+ }
+ .from-input{
+   padding: 3px 7px;
+    margin: 7px 0;
+    font-size: 15px;
+  width: 100%;
+border: 1px solid rgb(139, 137, 137);
+border-radius: 8px; 
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+ }
+ 
+ .text-footer{
+    text-align: center;
+  padding: 5px 0 ;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+color: aliceblue;
+ }
+.burger{
+
+position: absolute;
+cursor: pointer;
+right: 5%;
+top:15px ;
+}
+/* .line{
+    width: 33px;
+    background-color: #ffffff;
+    height: 4px;
+    margin: 3px 3px;
+} */
+ @media only screen and (max-width:978px) {
+   .navlist{
+    flex-direction: column;
+   }
+   .navbar{
+    flex-direction: column;
+   }
+   #search{
+    width: 100%;
+   }
+ .burger{
+    display: block;
+ }
+   }
+ /* drop down table */
+   .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+ 
+    background-color: #ffceaa00;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 16px;
+    border:  rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    padding: 12px 36px;
+    display: block;
+    background-color: rgb(244, 217, 217);
+    border: 1px ;
+    border-radius: 4px;
+  }
+  
+  /* back ground color white */
+  /* #myDropdown {
+    color: #ffffff;
+    background-color:transparent;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* add any other styling you want */
+  
+   
+    html{
+      scroll-behavior: smooth;
+    }
+  
+  /* body {
+  
+      background-image: url(img/website\ background-Month.jpg);
+     <img src="img/website background-Month.jpg" alt="image">
+  
+  
+      background-repeat: no-repeat;
+  
+      background-size: cover;
+  
+      background-position: center;
+  
+      font-family: sans-serif;
+  }
+  */
+  
+
+
+
+  /* this is drop down part */
+  .background {
+      /* background: rgb(0, 0, 0, 0.5); */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      /* background-image: url(img/website\ background-Month.jpg); */
+  
+  }
+  
+  .firstsection {
+      height: 100vh;
+  }
+  
+  
+  a {
+      /* we can remove all  the under line to doing this  after writing a */
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  /* this is our menu bar css */
+  .menu-bar {
+      /* background-color: rgb(0, 0, 0); */
+      text-align: center;
+    
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+  }
+  
+  /* this is our logo css  */
+  .logo {
+      width: 17%;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+  
+  
+  }
+  
+  .logo img {
+      border-radius: 9px;
+      padding: 5px 2px;
+      width: 17%;
+      border-style: none;
+      /* border: solid rgb(255, 255, 255); */
+      /* border-radius: 100px; */
+  
+  }
+  
+  .menu-bar ul {
+      display: inline-flex;
+      list-style: none;
+      color: #fff;
+  
+  }
+  
+  .menu-bar ul li {
+      width: 150px;
+      margin: 10px;
+      padding: 6px;
+  
+  
+  }
+  
+  .active,
+  .menu-bar ul li:hover {
+      background: #d35342c6;
+     
+   
+  }
+  
+  .sub-menu-1 {
+      display: none;
+    
+  }
+  
+  .menu-bar ul li:hover .sub-menu-1 {
+      display: block;
+      position: absolute;
+      background-color: #3d3c3cb7;
+      margin-top: 15px;
+      margin-left: -6px;
+     
+     
+     
+  
+  }
+  
+  .menu-bar ul li:hover .sub-menu-1 ul {
+      display: block;
+      margin: 10px;
+  
+  }
+  
+  .menu-bar ul li:hover .sub-menu-1 ul li {
+      width: 150px;
+      padding: 10px;
+      border-bottom: 1px dotted #000000;
+      background: transparent;
+     margin-top:2px ;
+      text-align: left;
+  }
+  
+  .menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+      border-bottom: none;
+  }
+  
+  .menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+      color: rgb(0, 0, 0);
+  }
+  /* this is out footer whis is located in the last  */
+.footer{
+    background-color: rgb(22, 14, 14);
+}
+.text-footer {
+    text-align: center;
+    padding: 5px 2px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
