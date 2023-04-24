@@ -25,6 +25,7 @@ body {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     text-align: center;
+    width: 20%;
   }
   /* .form-container2 {
     position: absolute;
@@ -48,8 +49,8 @@ body {
   } */
   
   h1 {
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-size: 29px;
+    margin-bottom: 70px;
   }
   
   form input[type="text"],
@@ -87,6 +88,51 @@ body {
   .heading{
     text-align: center;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.418);
+    background-color: rgba(255, 255, 255, 0.418);
+    
   }
-  
+  /* .vertical-menu{
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+  }
+  .vertical-menu a{
+    background-color: #eee;
+    color: #000000;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+
+  }
+  .vertical-menu a:hover{
+    background-color: #ccc;
+
+  }
+  .vertical-menu a.active{
+    
+    color: aqua;
+  } */
+
+  .vertical-menu{
+    
+    position: absolute;
+    top: 28%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    text-align: center;
+    display: inline-flexbox;
+    margin-bottom: 19px;
+    width:63%; 
+    margin-left: 130px;
+    
+    
+  }
+  .drop{
+   
+   padding: 7px;
+    width: 100%;
+    border-radius: 4px;
+    
+  }

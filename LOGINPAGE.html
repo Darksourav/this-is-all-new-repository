@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<h1 class="heading">
-  Welcome To Our Page
-</h1>
 
 
   <title>Login/Sign up Page</title>
@@ -12,7 +9,24 @@
 <body>
    <div class="background-image"></div>
   <div class="form-container">
-    <h1> Login/Signup</h1>
+    <h1> Login</h1>
+
+    <!-- this is vertical menu -->
+<div class="vertical-menu">
+  <select class="drop" name="dropdown_menu" size="1">
+    <option value="donor">Donor</option>
+    <option value="patient">Patient</option>
+    <option value="blodbanks">Bloodbanks</option>
+    <option value="hospital">Hospitals</option>
+    <option value="tasting_agency">Tasting Agency</option>
+  </select>
+  <!-- <a href="#" class="active">Donor </a>
+  <a href="#" class="active"> Patient</a>
+  <a href="#" class="active"> Bloodbanks</a>
+  <a href="#" class="active">Hospital </a>
+  <a href="#" class="active"> Testing agency</a>  -->
+</div>
+
     <form>
       <input type="text" placeholder="Username/Email" required>
       <input type="password" placeholder="Password" required>

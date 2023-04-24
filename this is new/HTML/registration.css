@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    background-image:  url(website\ background-Month.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+ 
+}
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888;
+    max-width: 600px;
+    margin: 30px auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}

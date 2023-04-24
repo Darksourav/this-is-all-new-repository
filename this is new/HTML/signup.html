@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <style>
+      /* Center the form on the page */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f1f1f1;
+        background-image: url(website\ background-Month.jpg);
+        background-size: cover;
+    background-repeat: no-repeat;
+ 
+      }
+
+      /* Style the form container */
+      .form-container {
+        width: 400px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Style the form header */
+      .form-header {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      /* Style the form fields */
+      .form-field {
+        margin-bottom: 10px;
+      }
+
+      .form-field label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .form-field input[type="text"],
+      .form-field input[type="email"],
+      .form-field input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        font-size: 16px;
+      }
+
+      /* Style the form button */
+      .form-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .form-button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-header">Sign Up</div>
+      <form>
+        <div class="form-field">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="form-button">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>
