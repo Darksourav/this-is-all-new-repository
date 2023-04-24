@@ -25,7 +25,7 @@ body {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     text-align: center;
-    width: 20%;
+    width: 30%;
   }
   /* .form-container2 {
     position: absolute;
@@ -50,7 +50,7 @@ body {
   
   h1 {
     font-size: 29px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
   }
   
   form input[type="text"],
@@ -125,14 +125,15 @@ body {
     display: inline-flexbox;
     margin-bottom: 19px;
     width:63%; 
-    margin-left: 130px;
+    margin-left: 175px;
     
     
   }
   .drop{
-   
-   padding: 7px;
-    width: 100%;
-    border-radius: 4px;
-    
+    display: inline-block;
+    padding: 8px;
+    margin-left: 5px;
+    width:100%; 
+    border-radius: 4px solid black;
   }
+  
